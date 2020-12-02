@@ -1,0 +1,5 @@
+	 <?php 
+	  Session::forget('ran');
+	  $timeinsec=app('App\Repositories\questionrepo')->refreshtime(); 
+				?>
+	<div  style=" margin:0 0 0 36%;  height:150px; width:600px;" id="timer" data-timer="{{$timeinsec*60}}"></div>
