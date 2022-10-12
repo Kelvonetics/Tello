@@ -24,7 +24,7 @@
     },
     "dependencies": {
         "bootstrap-vue": "^2.0.0-rc.21",
-        "jspdf": "^1.5.3",
+        "jspdf": "^2.5.1",
         "jspdf-autotable": "^3.1.1",
         "vue-router": "^3.0.6",
         "vue-strap": "^1.1.40"
